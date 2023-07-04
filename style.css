@@ -2,6 +2,37 @@
 Documentação da folha de estilo
 */
 
-body {
-    background-color: #fff000;
+/*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    */
+@media (min-width: 576px){
+
+body{ 
+    background-color: rgb(212, 219, 111);
 }
+}
+
+/*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    */
+@media (min-width: 768px){
+
+body{ 
+    background-color: rgb(152, 111, 219);
+    }
+    }
+
+/*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    */
+
+@media (min-width: 992px){
+
+body{ 
+    background-color: rgb(219, 111, 192);
+    }
+    }
+/*Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    */
+@media (min-width: 1200px){
+
+body{ 
+    background-color: rgb(55, 150, 150);
+    }
+    }
+
+
+/*PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    */
